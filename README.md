@@ -13,7 +13,7 @@ To connect wifi client remotely with gateway for testing purpose
 ## Setup Details
  ESP01 clients (802.11n) are used for remote wifi clients connect test. ESP01 is configured to bootup with AP mode. The enduser setup captive portal is used to configure WiFi credentials to connect as STA. additional Timeout params is added to reset ESP01 as AP again to make it available for testing.
 
-<img src="docs/ESP_block_top_view.png" alt="TOP View" width="400"/> <img src="docs/ESP_block_front_view.png" alt="Fron View" width="400"/>
+<img src="docs/ESP01_top_view.png" alt="TOP View" width="400"/> <img src="docs/ESP01_front_view.png" alt="Fron View" width="400"/>
 
 ### 1. Flash ESP01
 
