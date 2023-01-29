@@ -3,17 +3,46 @@ To connect wifi client remotely with gateway for testing purpose
 
 ## Hardware Details
 
-|SNo| Description | Hardware 
-|---|-------------|----------
-|1|[ESP01](https://amzn.eu/d/7bEEflm)|<img src="docs/ESP_01.png" alt="ESP01" hieght=100 width=100/>
-|2|[ESP01 Flasher](https://amzn.eu/d/b8dwMxA)| <img src="docs/ESP01_flasher.png" alt="ESP01 Flasher" hieght=100 width=100/>
-|3|[BreadBoard + Power supply module](https://amzn.eu/d/cFOHzTH)|<img src="docs/breadboard_power_supply.png" alt="breadboard power supply" hieght=100 width=100/>
-|4| 5 to 12V 1A power Aapter||<img src="docs/power_adapter.png" alt="Power Adapter" hieght=100 width=100/>
+<html>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><em> Sno </em></th>
+                <th><em> Desciption </em></th>
+                <th><em> Hardware </em></th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+                <td>1</td>
+                <td><a href="https://amzn.eu/d/7bEEflm">ESP01</a></td>
+                <td><img src="https://user-images.githubusercontent.com/35920764/215311101-b1d0838d-1a57-4958-9edb-771541cf217d.jpg" alt="ESP01" hieght=100 width=100/></td>
+            </tr>
+           <tr>
+                <td>2</td>
+                <td><a href="https://amzn.eu/d/b8dwMxA">ESP01 Flasher</a></td>
+                <td><img src="https://user-images.githubusercontent.com/35920764/215311096-fbf11ad5-5f96-4dcc-9c67-1da77561f5de.jpg" alt="ESP01 Flasher" hieght=100 width=100/></td>
+         </tr>
+          <tr>
+                <td>3</td>
+                <td><a href="https://amzn.eu/d/cFOHzTH">BreadBoard + Power supply module </a></td>
+                <td><img src="https://user-images.githubusercontent.com/35920764/215311099-e195f56e-45d8-428c-9c4b-2cd9d99b7a73.jpg" alt="breadboard power supply" hieght=100 width=100/></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5 to 12V 1A power Aapter</td>
+                <td><img src="https://user-images.githubusercontent.com/35920764/215311101-b1d0838d-1a57-4958-9edb-771541cf217d.jpg" alt="Power Adapter" hieght=100 width=100/></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 
 ## Setup Details
  ESP01 clients (802.11n) are used for remote wifi clients connect test. ESP01 is configured to bootup with AP mode. The enduser setup captive portal is used to configure WiFi credentials to connect as STA. additional Timeout params is added to reset ESP01 as AP again to make it available for testing.
 
-<img src="docs/ESP01_top_view.png" alt="TOP View" width="400"/> <img src="docs/ESP01_front_view.png" alt="Fron View" width="400"/>
+<img src="https://user-images.githubusercontent.com/35920764/215311104-8ecd3458-9e1c-4678-b2e9-014fc77b0554.jpg" alt="TOP View" width="400"/> <img src="https://user-images.githubusercontent.com/35920764/215311102-0c1a7224-8ab7-469f-9983-4f498b97fc54.jpg" alt="Front View" width="400"/>
 
 ### 1. Flash ESP01
 
